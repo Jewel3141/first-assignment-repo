@@ -11,7 +11,8 @@
 /* banner container styles */
 
 .banner-container {
-  background-image: url(/images/gradient3.png);
+
+  background-image: url(../images/gradient1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +20,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: auto;
+
 }
 
 .banner-content {
