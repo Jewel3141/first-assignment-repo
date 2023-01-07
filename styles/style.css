@@ -30,6 +30,12 @@ body {
 
 }
 
+.banner-top-content {
+  font-weight: 700px;
+  font-size: 40px;
+
+}
+
 .banner-content button {
   background-color: tomato;
   border: none;
@@ -55,6 +61,9 @@ body {
 
 .intro-img-container img {
   width: 100%;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px
 }
 
 .intro-content {
@@ -117,18 +126,19 @@ body {
 
 .bottom-image-container {
 
-  background-image: url(/images/watch.png);
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
 
   background-position: center;
   background-repeat: no-repeat;
   width: 1140px;
   height: 300px;
-  padding: 200px;
+  margin: 200px;
   border-radius: 8px;
   align-items: center;
 
 
 }
+
 
 
 .bottom-image-content {
@@ -144,10 +154,50 @@ body {
 .bottom-image-content button {
   width: 160px;
   height: 64px;
-  radius: 40px;
+
   font-size: 20px;
   color: #F15B22;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
+  border-radius: 8px white;
+}
+
+/* footer container styles */
+
+.footer-container {
+  display: flex;
+  background-color: #151414;
+  padding: 100px 50px;
+  gap: 200px;
+  justify-content: center;
+  width: 1600px;
+  height: 300px;
+}
+
+.footer-content-left {
+  color: #fff;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 17px;
+}
+
+.footer-right-content-title {
+  color: #F3F3F3;
+}
+
+.footer-right-input-email {
+  width: 325px;
+  height: 64px;
+  color: #F3F3F3;
+  padding-left: 20px;
+  background-color: #151414;
+}
+
+.footer-right-input-submit {
+  width: 170.11px;
+  height: 64px;
+  color: #F15B22;
 }
